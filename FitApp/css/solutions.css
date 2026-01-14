@@ -19,3 +19,12 @@
 }
 
 /* Second task = add background linear gradient on third grid child/correct white text */
+
+
+
+
+.stats-grid:hover {
+  box-shadow: 5px 5px 5px #333;
+}
+
+/* Third task = add 5px shadowbox to add movement*/
