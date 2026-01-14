@@ -45,12 +45,15 @@ body {
 	text-align: center;
 }
 
-.stat-number {
+.stat-number{
+
 	font-size: 2.5rem;
 	font-weight: bold;
 	color: #667eea;
 	display: block;
+	position: relative;
 }
+
 
 .stat-label {
 	color: #666;
