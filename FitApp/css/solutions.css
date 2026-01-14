@@ -45,3 +45,25 @@ background-color: rgb(243, 226, 194);
 }
 
 /* Fourth task = add left orange border and background color*/
+
+
+
+/* Fifth task = add background and border color to first and last child  */
+.exercise-item:first-child,
+.exercise-item:last-child { 
+
+    background-color: rgba(182, 241, 220, 0.626);
+    border-color: rgb(28, 201, 28);
+}
+
+/* Fifth task = add background and border color to first and last child  */
+
+
+
+/* Sixth task = add ⚡ emoji to second and fourth child */
+.exercise-item:nth-child(2)::before,
+.exercise-item:nth-child(4)::before{
+    content: "⚡";
+}
+/* Sixth task = add ⚡ emoji to second and fourth child */
+
