@@ -100,5 +100,51 @@ transition: border-color 0.3s, box-shadow 0.3s;
 }
 /* Ninth task = add mouse hover on button with animation and shadow (bonus: added hover off too) */
 
+/* Tenth task = added progression on bar*/
+.progress-fill::after{
+    content: "65%";
+    position: absolute;
+    right: 3px ;
+    color: white;
+    font-size: 10px;
+}
 
 
+/* Eleventh and twelfth task = add nav-bar color and hover  */
+.nav-footer > .nav-item:first-child {
+    color: #1848a1;
+    background-color: #667eea;
+    
+}
+
+.nav-item:hover {
+    color: #1848a1;
+    background-color: #667eea;
+}
+/* Eleventh and twelfth task = add nav-bar color and hover  */
+
+
+
+/* Thirteenth task = add quotes on motivational box */
+.quote-box::before{
+
+    content: " “ ";
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    font-size: 50px;
+    color: #ffffff51;
+    
+}
+
+.quote-box::after{
+    content: " ” ";
+    position:absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 50px;
+    color: #ffffff51;
+
+    
+}
+/* Thirteenth task = add quotes on motivational box */
