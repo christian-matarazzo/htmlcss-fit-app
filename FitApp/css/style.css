@@ -45,10 +45,6 @@ body {
 	text-align: center;
 }
 
-.stats-grid:nth-child(3)  {
-
-	background: linear-gradient(to right, rgb(70, 24, 161),rgba(238, 130, 238, 0.436));
-}
 
 .stat-number{
 

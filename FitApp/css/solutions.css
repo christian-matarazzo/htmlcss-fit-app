@@ -1,3 +1,4 @@
+/* First task = add flame emoji */
 .stats-grid:nth-child(1) ::before {
 
 	content: "🔥";
@@ -9,22 +10,38 @@
 /* First task = add flame emoji */
 
 
-.stats-container > .stats-grid:nth-of-type(3) > .stat-number{
-
-	color: #ffffff;
+.stats-container > .stats-grid:nth-of-type(3) > .stat-number,
+.stats-container > .stats-grid:nth-of-type(3) > .stat-label 
+ {
+	color: white !important;
 }
 
-.stats-container > .stats-grid.stats-grid:nth-of-type(3) > .stat-label {
-	color: white;
+/* Second task = add background linear gradient on third grid child/correct white text */
+.stats-grid:nth-child(3)  {
+
+	background: linear-gradient(to right, rgb(70, 24, 161),rgba(238, 130, 238, 0.436));
 }
 
 /* Second task = add background linear gradient on third grid child/correct white text */
 
 
 
-
+/* Third task = add 5px shadowbox to add movement*/
 .stats-grid:hover {
   box-shadow: 5px 5px 5px #333;
 }
 
 /* Third task = add 5px shadowbox to add movement*/
+
+
+
+/* Fourth task = add left orange border and background color*/
+.workout-section > .workout-plan:nth-last-of-type(2){
+
+border-left: solid 5px orange;
+background-color: rgb(243, 226, 194);
+
+
+}
+
+/* Fourth task = add left orange border and background color*/
