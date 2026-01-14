@@ -45,6 +45,11 @@ body {
 	text-align: center;
 }
 
+.stats-grid:nth-child(3)  {
+
+	background: linear-gradient(to right, rgb(70, 24, 161),rgba(238, 130, 238, 0.436));
+}
+
 .stat-number{
 
 	font-size: 2.5rem;
@@ -55,11 +60,14 @@ body {
 }
 
 
+
 .stat-label {
 	color: #666;
 	font-size: 0.9rem;
 	margin-top: 5px;
 }
+
+
 
 /* Workout Plans */
 .section-title {

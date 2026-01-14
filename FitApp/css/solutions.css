@@ -6,6 +6,16 @@
 	left:50%;
 	transform: translate(-50%,-50%)
 }
-/* First task */
+/* First task = add flame emoji */
 
 
+.stats-container > .stats-grid:nth-of-type(3) > .stat-number{
+
+	color: #ffffff;
+}
+
+.stats-container > .stats-grid.stats-grid:nth-of-type(3) > .stat-label {
+	color: white;
+}
+
+/* Second task = add background linear gradient on third grid child/correct white text */
